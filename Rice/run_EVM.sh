@@ -10,8 +10,6 @@ for file in *.gz; do
 done
 
 
-exit
-
 ../../EVidenceModeler --genome genome.fasta \
    --weights weights.txt \
    --gene_predictions gene_predictions.gff3 \
